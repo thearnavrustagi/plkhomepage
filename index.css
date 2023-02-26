@@ -1,0 +1,78 @@
+* {
+    font-family: 'Open Sans';
+}
+
+p {
+    font-weight: 400 !important;
+    font-size: 1.25rem;
+}
+
+.my-title {
+    font-size: 8rem;
+}
+
+.title-position {
+    position: absolute;
+    bottom:3rem
+}
+
+.my-subtitle {
+    font-weight: 900 !important;
+    font-family: 'Raleway';
+    font-size:1.5rem !important;
+}
+
+.my-hero {
+    background-image: linear-gradient(to bottom,#007878,#00787844), url("./bg.png") !important;
+     background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.my-navbar {
+    padding:0.5rem;
+    position: sticky;
+    top:0;
+    background-color: #fff;
+    border-bottom-style: solid;
+    border-bottom-color: #007878;
+    height: 4rem;
+    width: 100vw;
+    margin: 0 !important;
+    z-index: 10;
+}
+
+.navigation {
+    position: absolute;
+    top: 6rem;
+    right:0;
+    cursor: pointer;
+}
+
+h1 {
+    font-size:2rem !important;
+    font-weight: 900 !important;
+    color:#007878;
+}
+
+.placeholder {
+height:30vh;width:100%;background-color: #a8a8a8;
+border-style: solid;
+border-color: #007878;
+}
+
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: 0.75rem;;
+    }
+
+    .navigation {
+        left:2rem;
+        top: 6rem;
+        right:auto
+    }
+
+    .my-title {
+        font-size: 4rem;
+    }
+}

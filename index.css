@@ -23,7 +23,7 @@ p {
 }
 
 .my-hero {
-    background-image: linear-gradient(to bottom,#007878,#00787844), url("./bg.png") !important;
+    background-image: linear-gradient(to bottom,#007878,#00787844), url("https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEOQYsNIJDrQnAQrVWttYuvo3rcXtujCrqPe70RJMb8QB5L5GkGBbhAXdA1RrgAUT_ChdsO4TkYFwnYR1ZB7PpXkm8ULVAQ=w1920-h927") !important;
      background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
